@@ -14,18 +14,18 @@
   </head>
   <body>
     <header
-      class="d-flex flex-wrap bg-body-tertiary align-items-center sticky-top justify-content-center py-3 mb-4"
+      class="d-flex flex-wrap align-items-center sticky-top justify-content-center py-3 mb-4"
     >
       <div class="col-md-3 mb-2 mb-md-0">
         <a
           href="/"
-          class="d-inline-flex link-body-emphasis text-decoration-none"
+          class="d-inline-flex link-body-emphasis text-decoration-none align-items-center"
         >
           <img
             src="img/AHN logo.svg"
             alt="logo"
             height="30"
-            class="d-inline-block align-text-top"
+            class="d-inline-block"
           />
           Anne Helene Nergård
         </a>
@@ -33,41 +33,102 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-        <li><a href="#" class="nav-link px-2 link-secondary">My work</a></li>
-        <li><a href="#" class="nav-link px-2 link-secondary">About</a></li>
-        <li><a href="#" class="nav-link px-2 link-secondary">Contact</a></li>
+        <li>
+          <a href="#my-work" class="nav-link px-2 link-secondary">My work</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link px-2 link-secondary">Contact</a>
+        </li>
       </ul>
     </header>
 
-    <div class="container-fluid hero-section" id="hero">
-      <div class="row">
-        <div class="col-6">
+    <div class="container-fluid hero-section px-5" id="hero">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-sm-12">
           <h2>👋 Hi I am</h2>
           <h1>Anne Helene Nergård</h1>
           <h3>🇳🇴 Front-end developer, based in Norway</h3>
-          <button class="btn btn-info">Contact me</button>
+          <blockquote class="blockquote">
+            <p>UX-Designer with a heart for front-end</p>
+          </blockquote>
+          <button class="btn btn-primary">Contact me</button>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-sm-12">
           <img src="img/anne_portrait.jpg" class="img-fluid" alt="Anne" />
         </div>
       </div>
-      <div class="row"></div>
-      <div class="row footer">
-        <table>
-          <thead>
-            <td>Contact</td>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Email:</td>
-              <td>anne@anne.oi</td>
-            </tr>
-            <tr>
-              <td>Github</td>
-              <td><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="row align-items-center">
+        <h2 id="my-work">My work</h2>
+        <div class="col-lg-6 col-sm-12">
+          <img
+            src="img/yoga.png"
+            class="img-fluid d-none d-sm-block"
+            alt="yoga"
+          />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <h3>Yoga app</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad totam
+            facere, maiores quis ipsam molestiae omnis animi consequatur iusto
+            enim aliquid? Velit harum sapiente provident tenetur eligendi
+            officiis eveniet in.
+          </p>
+          <button type="button" class="btn btn-primary">Launch yoga app</button>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-sm-12">
+          <h3>Weather app</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iste
+            quos, facere ab doloremque provident sequi magnam dolore minus.
+            Repellendus facere aperiam consectetur illum adipisci perferendis
+            eaque eligendi, sequi quaerat.
+          </p>
+          <button type="button" class="btn btn-primary">
+            Launch Weather app
+          </button>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <img
+            src="img/weather.png"
+            class="img-fluid d-none d-sm-block"
+            alt="weather app"
+          />
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-sm-12">
+          <img
+            src="img/yogurt.png"
+            class="img-fluid d-none d-sm-block"
+            alt="Love for yoghurt"
+          />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <h3>Yoghurt site</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            delectus, at, soluta debitis sint molestias quia modi atque quasi
+            facilis voluptates et adipisci velit voluptatem accusamus ea
+            distinctio, animi facere.
+          </p>
+          <button type="button" class="btn btn-primary">
+            Launch yoghurt site
+          </button>
+        </div>
+      </div>
+      <div class="row text-center mt-5 mb-5" id="contact">
+        <h2 id="contact">Connect</h2>
+        <ul>
+          <li class="list-group-item">
+            <a href="mailto:[email]" class="email-link"> anne@anne.io </a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://github.com/Annekaka" class="email-link">Github</a>
+          </li>
+        </ul>
       </div>
     </div>
 
