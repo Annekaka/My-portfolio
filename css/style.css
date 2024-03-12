@@ -1,6 +1,8 @@
 :root {
   --primary-color: #39d999;
+  --secondary-color: #b9f5dd;
   --background-color: #fff;
+  --secondary-background-color: #f2fbf8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   --primary-font: "montserrat";
   --secondary-font: "poppins";
@@ -34,11 +36,19 @@ p {
   margin-bottom: 2rem;
   text-align: center;
 }
-
+.hero-section {
+  background-color: var(--secondary-background-color);
+  padding: 5rem;
+  margin-bottom: 4rem;
+}
 .row {
   margin-top: 2rem;
 }
-
+footer {
+  background-color: var(--secondary-background-color);
+  padding: 5rem;
+  margin-top: 4rem;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 2.5rem;
@@ -80,6 +90,9 @@ p {
   color: var(--primary-color);
   background-color: var(--background-color);
 }
+.get-in-touch {
+  margin: 2rem auto;
+}
 .email-link {
   display: flex;
   text-align: left;
@@ -93,4 +106,8 @@ p {
 }
 .contact {
   margin: 0 auto;
+}
+
+i:hover {
+  color: var(--primary-color);
 }
