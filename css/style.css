@@ -58,6 +58,9 @@ p {
   .footer {
     display: none;
   }
+  dt {
+    text-align: center;
+  }
 }
 
 .btn-primary {
